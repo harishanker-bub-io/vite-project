@@ -1,6 +1,5 @@
 import { AgentPanel } from '@agilecrm/500ux-core'
 import './App.css'
-import roboImage from './assets/robo.jpg'
 
 function App() {
   return (
@@ -10,13 +9,13 @@ function App() {
           subtitle={import.meta.env.VITE_AGENT_SUBTITLE || ''}
           logo={
             <img
-              src={roboImage}
+              src="https://r-one.co.in/wp-content/uploads/2025/10/rone-logo-1.png"
               alt="Robot Logo"
               style={{
-                width: 36,
+                width: 100,
                 height: 36,
                 borderRadius: 10,
-                objectFit: 'cover',
+                objectFit: 'contain',
               }}
             />
           }
