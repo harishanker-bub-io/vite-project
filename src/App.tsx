@@ -21,6 +21,9 @@ function App() {
           }
           context={{
             appId: import.meta.env.VITE_AGENT_APP_ID || '',
+            metadata: {
+              jug_prompt: import.meta.env.VITE_AGENT_JUG_PROMPT || ''
+            }
           }}
           placeholder="Ask the agent anything..."
           appLabel={import.meta.env.VITE_AGENT_APP_LABEL || ''}
