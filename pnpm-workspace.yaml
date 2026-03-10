@@ -1,3 +1,0 @@
-# Comment below in production
-overrides:
-  '@agilecrm/500ux-core': link:../500ux-core

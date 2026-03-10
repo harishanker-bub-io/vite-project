@@ -1,47 +1,31 @@
 import { AgentPanel } from '@agilecrm/500ux-core'
+import './App.css'
+import roboImage from './assets/robo.jpg'
 
 function App() {
   return (
-    <div
-      style={{
-        display: 'flex',
-        height: '100vh',
-        width: '100%',
-        backgroundColor: '#09090b',
-        color: '#fafafa',
-        overflow: 'hidden',
-      }}
-    >
-      <div style={{ position: 'relative', zIndex: 1, display: 'flex', width: '100%', height: '100%' }}>
+    <div className='w-full h-full' >
         <AgentPanel
           title={import.meta.env.VITE_AGENT_TITLE || ''}
           subtitle={import.meta.env.VITE_AGENT_SUBTITLE || ''}
           logo={
-            <div
+            <img
+              src={roboImage}
+              alt="Robot Logo"
               style={{
                 width: 36,
                 height: 36,
                 borderRadius: 10,
-                backgroundColor: '#fafafa',
-                color: '#09090b',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontWeight: 700,
-                fontSize: 14,
+                objectFit: 'cover',
               }}
-            >
-              500
-            </div>
+            />
           }
           context={{
             appId: import.meta.env.VITE_AGENT_APP_ID || '',
-            journeyId: import.meta.env.VITE_AGENT_JOURNEY_ID || '',
           }}
           placeholder="Ask the agent anything..."
           appLabel={import.meta.env.VITE_AGENT_APP_LABEL || ''}
         />
-      </div>
     </div>
   )
 }
