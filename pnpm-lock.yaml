@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@agilecrm/500ux-core':
-        specifier: ^0.1.22
-        version: 0.1.22(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: 0.1.25
+        version: 0.1.25(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react:
         specifier: ^19.2.0
         version: 19.2.4
@@ -57,8 +57,8 @@ importers:
 
 packages:
 
-  '@agilecrm/500ux-core@0.1.22':
-    resolution: {integrity: sha512-ZfXtW1t4dRJodGmmLzEvrJLFPUmXif0RnaBy57Pp7z2CNwIOKJuWsIRbF7cQKYbRPVXr7OBQlm9fabOSBTJCqg==, tarball: https://npm.pkg.github.com/download/@agilecrm/500ux-core/0.1.22/d0b882da23bbaa4e185e9c8aab01b1cd2c2cfda3}
+  '@agilecrm/500ux-core@0.1.25':
+    resolution: {integrity: sha512-+mRcZDSRgREki4OlVW/3dDq82MKvsZskSq4+9C3fujngUsTpLUHQGlnN3j/4qNgvBjnmqZEAiETc0BEhfAcxGw==, tarball: https://npm.pkg.github.com/download/@agilecrm/500ux-core/0.1.25/3effb8999656c684b50f9468fdf1e596b880e6db}
     peerDependencies:
       react: 19.2.3
       react-dom: 19.2.3
@@ -1124,7 +1124,7 @@ packages:
 
 snapshots:
 
-  '@agilecrm/500ux-core@0.1.22(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@agilecrm/500ux-core@0.1.25(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
