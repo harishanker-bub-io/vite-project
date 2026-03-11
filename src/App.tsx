@@ -26,6 +26,7 @@ function App() {
           }}
           placeholder="Ask the agent anything..."
           appLabel={import.meta.env.VITE_AGENT_APP_LABEL || ''}
+          debug={false}
         />
     </div>
   )
