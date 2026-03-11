@@ -1,5 +1,4 @@
 import { AgentPanel } from '@agilecrm/500ux-core'
-import './App.css'
 
 function App() {
   return (
